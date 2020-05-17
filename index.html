@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Picture This</title>
+  <link rel="shortcut icon" href="images/icon.png" type="image/vnd.microsoft.icon">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=VT323&display=swap" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="transparent">
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="index.html" class="brand-logo">Picture This</a>
+          <a href="" class="sidenav-trigger" data-target="mobile-menu"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#about">About</a></li>
+            <li><a href="#photo-info">POD</a></li>
+          </ul>
+          <ul class="sidenav blue lighten-3" id="mobile-menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#photo-info">POD</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="container" id="content-intro">
+      <div class="row">
+        <div class="s12 l4">
+          <h3 class="center-align intro-title">Discover galaxies through pictures.</h3>
+          <p class="intro-text" class="section scrollspy" id="about">Let's check out what we can learn from NASA's
+            Picture of the Day! Everyday professional astronomers
+            from all over the world share an image and description of the universe. POD is a good resource for children
+            in elementary school studying space or adults who are fascinated with science.</p>
+        </div>
+      </div>
+    </section>
+  </header>
+  <section id="color-break-two">
+  </section>
+  <section id="color-break">
+    <div class="row">
+      <div class="col s12 push-s4">
+        <h4 id="date"></h4>
+      </div>
+    </div>
+  </section>
+  <section id="color-break-two">
+  </section>
+  <section>
+    <div class="parallax-container">
+      <div class="parallax"><img class="moon" src="images/moon.jpg"></div>
+    </div>
+  </section>
+  <section id="color-break-two">
+  </section>
+  <section class="container section scrollspy" id="photo-info">
+    <div class="row">
+      <div class="col s5">
+        <h4 id="title" class="left-align"></h4>
+        <p id="explanation" class="left-align"></p>
+      </div>
+      <div class="col s7 push-s1">
+        <img id="hdurl" class="right-align" />
+      </div>
+    </div>
+  </section>
+  <footer class="page-footer blue lighten-3">
+    <div class="container">
+      <div class="row">
+        <div class="footer-content">
+          <div class="col s6">
+            <p><a href="https://www.nasa.gov/" target=”_blank>NASA at Home</a></p>
+            <p><a href="https://www.mtu.edu/physics/department/faculty/nemiroff/" target=”_blank>Authors and Editors</a>
+            </p>
+          </div>
+          <div class="col s6 push-s2">
+            <ul class="socials">
+              <li><a href="https://twitter.com/nasa" target=”_blank” class="fa fa-twitter"></a>&nbsp;Twitter</li>
+              <li><a href="https://www.instagram.com/nasa/" target=”_blank” class="fa fa-instagram"></a>&nbsp;Instagram
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center-align">&copy; 2020 Picture This<br>
+        This website uses NASA’s POD API but is not endorsed or certified by POD.</div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
